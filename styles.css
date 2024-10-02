@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Top Bar */
+.top-bar {
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 29px;
+    font-weight: bold;
+    color: #ff3f6c;
+}
+
+.icons img {
+    width: 28px;
+    margin-left: 18px;
+}
+
+/* Search Bar */
+.search-bar {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Categories Section */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 50px;
+}
+
+.category p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.categoriess {
+    display: flex;
+    justify-content: space-around;
+    padding: 23px 0;
+    background-color: #fff;
+    
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 60px;
+}
+
+.category p {
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+/* Slider Section */
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Hide overflow to keep the layout clean */
+    height: 300px; /* Set a fixed height for the slider */
+}
+
+.slide {
+    display: none; /* Hide all slides initially */
+    width: 100%;
+    height: 100%; /* Ensure each slide takes full height of the slider */
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire area without distorting */
+}
+
+.shop-now {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff3f6c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners to the button */
+}
+
+/* Keyframes for Slide Animation */
+@keyframes slide-animation {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+
+
+
+/* Offers Section */
+.offers {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.offer {
+    margin-bottom: 10px;
+    background-color: #ffe0e6;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    background-color: #fff;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-item img {
+    width: 27px;
+}
+
+.nav-item p {
+    margin-top: 9px;
+    font-size: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff2b5d; /* Myntra's brand color */
+    padding: 10px 20px;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    width: 150px; /* Adjust the width as necessary */
+}
+
+nav {
+    flex: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-container {
+    flex: 1;
+    text-align: right;
+}
+
+.search-icon {
+    width: 30px; 
+}
+
+.banner {
+    background-color: #f2f2f2; 
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    font-size: 36px;
+    color: #ff2b5d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff2b5d;
+    color: white;
+}
